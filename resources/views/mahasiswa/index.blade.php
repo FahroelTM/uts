@@ -27,14 +27,20 @@
                 <a class="nav-link text-light" href="ujian">Ujian</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="kategori">Nilai</a>
+                <a class="nav-link text-light" href="nilai">Nilai</a>
               </li>
             </ul>
           </div>
         </div>
     </div>
-    {{-- <div class="mt-3">
-       <a href=""> Klik ke pendaftaran </a>
-    </div> --}}
+    <div class="mt-3">
+       <a href="pendaftaran"> Klik ke pendaftaran </a>
+    </div>
+    <div class="mt-3">
+        <a href="ujian"> Klik ke ujian </a>
+     </div>
+     <div class="mt-3">
+        <a href="nilai"> Klik ke nilai </a>
+     </div>
 </body>
 </html>

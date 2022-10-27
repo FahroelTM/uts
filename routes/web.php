@@ -48,7 +48,7 @@ Route::prefix('mahasiswa')->group(function () {
         return view('mahasiswa.pendaftaran');
     });
     Route::get('/ujian', function () {
-        return view('ujian');
+        return view('mahasiswa.ujian');
     });
     Route::get('/nilai', function () {
         return view('mahasiswa.nilai');
