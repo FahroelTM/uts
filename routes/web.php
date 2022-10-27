@@ -45,16 +45,15 @@ Route::get('admin', [DashboardController::class, 'index']);
 
 Route::prefix('mahasiswa')->group(function () {
     Route::get('/pendaftaran', function () {
-        return '<h1>Ini Halaman Pendaftaran</h1>';
-        // return view('mahasiswa.pendaftaran');
+        return view('mahasiswa.pendaftaran');
     });
     Route::get('/ujian', function () {
-        // return view('ujian');
-        return "<h1>Ini Halamn Ujian</h1>";
+        return view('ujian');
     });
     Route::get('/nilai', function () {
-        return "<h1>Ini Halaman Nilai</h1>";
+        return view('mahasiswa.nilai');
+    });
+    Route::get('/index', function () {
+        return view('mahasiswa.index');
     });
 });
-
-

@@ -9,6 +9,6 @@ class PendaftaranController extends Controller
     public function index()
     {
         $data = array( 'title' => 'Mahasiswa' );
-        return view( 'pendaftaran', $data );
+        return view( 'mahasiswa.index', $data );
     }
 }
